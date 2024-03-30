@@ -26,6 +26,13 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.my-config {
+  --darkmode: 0;
+  --h-accent: 159;
+  --s-accent: 24%;
+  --l-accent: 44%;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
